@@ -1,5 +1,5 @@
 // 1. Print Numbers from 1 to N
-
+/*
 let n = 20;
 
 for (let i = 1; i <= n; i++) {
@@ -76,3 +76,51 @@ for (let i = 1; i <= n3; i++) {
   console.log(`square of ${i} = ${i * i}`);
   console.log(Math.pow(i, 2));
 }
+
+*/
+
+
+// Home-work assignment
+
+// 1. Print all numbers divisible by 3 and 5 up to N
+
+let n4 = 30;
+
+for(let i=1; i<=n4; i++){
+  if((i%3===0) &&( i%5===0)){
+    console.log(i)
+  }
+}
+
+// 2. ind the sum of all odd numbers up to N
+
+let n5= 10;
+let sumOdd = 0;
+
+for(let i=0; i<=n5; i++ ){
+  if(i%2!==0){
+    sumOdd+=i;
+  }
+}
+
+console.log(`sum of all odd numbers up to N :${sumOdd} `);
+
+
+
+// 3.Print the cubes of numbers from 1 to N
+
+let n6 = 5;
+
+for(let i=1; i<=n6; i++){
+  console.log(`cube of ${i} = ${i*i*i}`)
+}
+
+
+
+//  Print only the numbers that are both even and perfect squares
+
+for(let i=1; i<=20; i++){
+   if(i%2==0 && Number.isInteger(Math.sqrt(i))){
+     process.stdout.write(i + " ");
+   }
+  }
