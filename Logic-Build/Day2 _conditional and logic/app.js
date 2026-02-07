@@ -105,3 +105,18 @@ console.log(leapYearcheck(2004));
 console.log(leapYearcheck(2006));
 console.log(leapYearcheck(2008));
 console.log(leapYearcheck(1996));
+
+
+
+//  Homework assignment
+
+// 1. Check if a Character is Uppercase, Lowercase, Digit, or Special Character
+
+function charTypechacker(input){
+  if(input.typeof ==="string"){
+    console.log(input);
+
+  }
+}
+
+charTypechacker("A")
